@@ -1,0 +1,81 @@
+.box {
+    border: .1rem solid rgba(0, 0, 0, .1);
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #fff;
+    width: 30rem;
+    text-align: center;
+}
+
+.box img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.box h3 {
+    font-size: 2rem;
+    color: var(--green);
+}
+
+.box .rates img {
+    width: 10%;
+    height: 10%;
+    padding: 1rem .1rem;
+}
+
+.price {
+    font-size: 2rem;
+    color: #666;
+}
+
+.price span {
+    font-size: 1.5rem;
+    color: #aaa;
+    padding-right: .5rem;
+    text-decoration: line-through;
+}
+
+.icons {
+    padding: 1rem 0;
+}
+
+.box .icons button {
+    width: 5rem;
+    height: 5rem;
+    margin: .5rem;
+    line-height: 5rem;
+    cursor: pointer;
+    transition: none;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+}
+
+.box .icons button:hover {
+    background-color: #D8D8D8;
+}
+
+.icons button:nth-child(1) {
+    background: url(../../assets/Icons/shopping-cart.ico) no-repeat;
+    background-size: 2rem;
+    background-position: center;
+}
+
+.icons button:nth-child(2) {
+    background: url(../../assets/Icons/view.ico) no-repeat;
+    background-size: 2rem;
+    background-position: center;
+}
+
+.icons button:nth-child(3) {
+    background: url(../../assets/Icons/like.ico) no-repeat;
+    background-size: 2rem;
+    background-position: center;
+}
+
+.icons button:nth-child(4) {
+    background: url(../../assets/Icons/share.ico) no-repeat;
+    background-size: 2.5rem;
+    background-position: center;
+}

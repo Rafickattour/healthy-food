@@ -1,0 +1,40 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 1 1 40rem;
+}
+
+.image img {
+    width: 100%;
+}
+
+.content {
+    flex: 1 1 40rem;
+    padding: 2rem 1rem;
+}
+
+.content h3 {
+    color: var(--green);
+    font-size: 2.5rem;
+}
+
+.content p {
+    color: #aaa;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+}
+
+.content p:nth-child(3) {
+    animation: slide-left 300ms linear;
+}
+
+@keyframes slide-left {
+    0% {
+        translate: 10%;
+    }
+}

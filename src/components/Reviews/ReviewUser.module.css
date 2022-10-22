@@ -1,0 +1,76 @@
+.box {
+    margin: 2rem;
+    padding: 1rem;
+    flex: 1 1 35rem;
+}
+
+.info {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.info>img {
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    border: .5rem solid var(--green);
+    border-radius: 50%;
+}
+
+.user {
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.user h3 {
+    font-size: 2rem;
+    color: var(--green);
+}
+
+.user span {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.menu {
+    width: 2.4rem;
+    height: 2.4rem;
+    cursor: pointer;
+    background: url(../../assets/Icons/more.ico) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu:hover span {
+    display: block;
+}
+
+.menu span {
+    width: 7rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: calibri;
+    padding: .5rem 1rem;
+    text-align: center;
+    display: none;
+    translate: -78%;
+    background-color: #666;
+}
+
+.menu span:hover {
+    font-weight: bold;
+}
+
+.menu span:first-of-type {
+    border-radius: 4px 4px 0 0;
+}
+
+.menu span:last-of-type {
+    border-radius: 0 0 4px 4px;
+}
+
+.box p {
+    font-size: 1.5rem;
+    color: #999;
+}

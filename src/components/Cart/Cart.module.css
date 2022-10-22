@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    color: var(--green);
+    text-align: center;
+}
+
+.container p {
+    color: #444;
+    margin: .5rem 0;
+    font-size: 1.6rem;
+    font-family: calibri;
+    text-transform: none;
+}
+
+.container textarea {
+    resize: none;
+    text-transform: none;
+}
+
+.container button {
+    padding: .7rem 2rem;
+    font-size: 1.7rem;
+    background: #666;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.container button:hover {
+    background: #444;
+}

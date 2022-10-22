@@ -1,0 +1,43 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(../../assets/Images/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 75rem;
+    padding-left: 10rem;
+}
+
+.content h3 {
+    font-size: 4.5rem;
+    color: var(--green);
+}
+
+.content p {
+    color: #aaa;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+@media (max-width:991px) {
+    .home .content {
+        padding: 0;
+    }
+}
+
+@media (max-width:788px) {
+    .home {
+        background: linear-gradient(rgba(255, 255, 255, .7),
+                rgba(255, 255, 255, .7)),
+            url(../../assets/Images/home-bg.jpg) no-repeat;
+        background-position: left;
+    }
+
+    .home .content {
+        width: auto;
+    }
+}

@@ -1,0 +1,21 @@
+.box {
+    text-align: center;
+    width: 30rem;
+    margin: 2rem;
+}
+
+.box img {
+    width: 28%;
+    padding: 1rem;
+}
+
+.box h3 {
+    font-size: 2rem;
+    color: var(--green);
+}
+
+.box p {
+    font-size: 1.5rem;
+    color: #999;
+    padding: 1rem 0;
+}
