@@ -20,8 +20,9 @@ const DUMMY_PRODUCTS = [
         rate1: rate,
         rate2: rate,
         rate3: rate,
+        rate4: rate,
         price: 12.10,
-        offer: 15.5
+        offer: 8.25
     },
     {
         id: 2,
@@ -30,8 +31,9 @@ const DUMMY_PRODUCTS = [
         rate1: rate,
         rate2: rate,
         rate3: rate,
-        price: 12.10,
-        offer: 15.5
+        rate4: halfRate,
+        price: 10,
+        offer: 7
     },
     {
         id: 3,
@@ -40,8 +42,8 @@ const DUMMY_PRODUCTS = [
         rate1: rate,
         rate2: rate,
         rate3: rate,
-        price: 12.10,
-        offer: 15.5
+        price: 10.50,
+        offer: 8.75
     },
     {
         id: 4,
@@ -49,9 +51,9 @@ const DUMMY_PRODUCTS = [
         name: 'organic lemon',
         rate1: rate,
         rate2: rate,
-        rate3: rate,
-        price: 12.10,
-        offer: 15.5
+        rate3: halfRate,
+        price: 12.3,
+        offer: 6.50
     },
     {
         id: 5,
@@ -60,8 +62,9 @@ const DUMMY_PRODUCTS = [
         rate1: rate,
         rate2: rate,
         rate3: rate,
-        price: 12.10,
-        offer: 15.5
+        rate4: rate,
+        price: 15,
+        offer: 10.50
     },
     {
         id: 6,
@@ -69,9 +72,8 @@ const DUMMY_PRODUCTS = [
         name: 'organic broccoli',
         rate1: rate,
         rate2: rate,
-        rate3: rate,
-        price: 12.10,
-        offer: 15.5
+        price: 9.25,
+        offer: 5.75
     },
     {
         id: 7,
@@ -80,8 +82,9 @@ const DUMMY_PRODUCTS = [
         rate1: rate,
         rate2: rate,
         rate3: rate,
-        price: 12.10,
-        offer: 15.5
+        rate4: halfRate,
+        price: 18.75,
+        offer: 14
     },
     {
         id: 8,
@@ -90,8 +93,8 @@ const DUMMY_PRODUCTS = [
         rate1: rate,
         rate2: rate,
         rate3: rate,
-        price: 12.10,
-        offer: 15.5
+        price: 12,
+        offer: 7.25
     }
 ];
 
