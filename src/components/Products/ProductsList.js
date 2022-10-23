@@ -21,7 +21,6 @@ const DUMMY_PRODUCTS = [
         rate2: rate,
         rate3: rate,
         rate4: rate,
-        rate5: rate,
         price: 12.10,
         offer: 8.25
     },
