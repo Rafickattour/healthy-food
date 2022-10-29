@@ -46,6 +46,10 @@ section {
 }
 
 @media (max-width:991px) {
+  * {
+    font-family: calibri;
+  }
+
   html {
     font-size: 55%;
   }
